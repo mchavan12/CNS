@@ -1,5 +1,4 @@
 def encryptRailFence(text, key):
-
     rail = [['\n' for i in range(len(text))] for j in range(key)]
     dir_down = False
     row, col = 0, 0
@@ -21,7 +20,6 @@ def encryptRailFence(text, key):
     return("".join(result))
     
 def decryptRailFence(cipher, key):
-
     rail = [['\n' for i in range(len(cipher))] for j in range(key)]
     dir_down = None
     row, col = 0, 0
